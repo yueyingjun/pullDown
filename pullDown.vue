@@ -83,11 +83,8 @@
                 },1000)
             }
         },
-        created(){
-            console.log("created");
-        },
         destroyed(){
-            console.log("destroyed")
+            this.$root.routerPlace=true;
         }
     }
 </script>

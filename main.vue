@@ -47,11 +47,9 @@
                })
            }
 
-        },
-
-        destroyed(){
-            this.$root.routerPlace=true;
         }
+
+
 
 
 
